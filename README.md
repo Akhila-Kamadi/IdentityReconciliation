@@ -29,7 +29,7 @@ This repository contains the source code for the Identity Reconciliation API, wh
 }
 ```
 
-###Get All Contacts
+### Get All Contacts
 - **URL:** `identityreconciliation.akidev.me/contacts`
 - **Method:** GET
 - **Description:** Retrieve a list of all contacts.
