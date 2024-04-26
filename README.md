@@ -57,3 +57,14 @@ This repository contains the source code for the Identity Reconciliation API, wh
     }
 }
 ```
+
+## Getting Started
+
+To run the Identity Reconciliation API locally, follow these steps:
+
+1. Clone this repository: `git clone https://github.com/Akhila-Kamadi/identity-reconciliation.git`
+2. Navigate to the project directory: `cd identity-reconciliation`
+3. Build the project using Maven: `mvn clean install`
+4. Start the server: `mvn spring-boot:run`
+
+Once the server is running, you can access the API endpoints as described in the README.
