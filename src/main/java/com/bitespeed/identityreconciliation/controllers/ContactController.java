@@ -5,6 +5,7 @@ import com.bitespeed.identityreconciliation.dtos.IdentifyContactRequestDto;
 import com.bitespeed.identityreconciliation.dtos.IdentifyContactResponseDto;
 import com.bitespeed.identityreconciliation.models.Contact;
 import com.bitespeed.identityreconciliation.services.ContactService;
+import com.bitespeed.identityreconciliation.services.impl.ContactServiceImpl;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,8 +15,8 @@ import java.util.List;
 public class ContactController {
     private ContactService contactService;
 
-    public ContactController(ContactService contactService) {
-        this.contactService = contactService;
+    public ContactController(ContactServiceImpl contactServiceImpl) {
+        this.contactService = contactServiceImpl;
     }
 
     @PostMapping("/identify")
