@@ -11,8 +11,8 @@ This repository contains the source code for the Identity Reconciliation API, wh
 - **Request Body:**
 ```json
 {
-    "phoneNumber": "123456",
-    "email": "lorraine@hillvalley.edu"
+    "email": "lorraine@hillvalley.edu",
+    "phoneNumber": "123456"
 }
 ```
 - **Response:** Returns the created/updated contact.
@@ -27,3 +27,4 @@ This repository contains the source code for the Identity Reconciliation API, wh
     "linkedId": null,
     "linkPrecedence": "PRIMARY"
 }
+```
