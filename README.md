@@ -5,12 +5,12 @@ This repository contains the source code for the Identity Reconciliation API, wh
 ## Endpoints
 
 ### Create Contact
-- **URL:** `identityreconciliation.xyz.me/contacts`
+- **URL:** `identityreconciliation.akidev.me/contacts`
 - **Method:** POST
 - **Description:** Create a new contact.
 - **Request Body:**
 ```json
 {
-    "phoneNumber": "1234567890",
-    "email": "example@example.com"
+    "phoneNumber": "123456",
+    "email": "lorraine@hillvalley.edu"
 }
