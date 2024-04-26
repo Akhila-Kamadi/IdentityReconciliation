@@ -14,3 +14,15 @@ This repository contains the source code for the Identity Reconciliation API, wh
     "phoneNumber": "123456",
     "email": "lorraine@hillvalley.edu"
 }
+- **Response:** Returns the created/updated contact.
+```json
+{
+    "id": 1,
+    "createdAt": "2024-04-26T10:09:25.422726",
+    "updatedAt": "2024-04-26T10:09:25.422762",
+    "deletedAt": null,
+    "phoneNumber": "123456",
+    "email": "lorraine@hillvalley.edu",
+    "linkedId": null,
+    "linkPrecedence": "PRIMARY"
+}
