@@ -35,4 +35,25 @@ This repository contains the source code for the Identity Reconciliation API, wh
 - **Description:** Retrieve a list of all contacts.
 - **Response:** Returns a list of contacts.
 
-
+### Identify Contact
+- **URL:** `identityreconciliation.akidev.me/contacts/identify`
+- **Method:** POST
+- **Description:** Reconcile the identity of a customer based on provided email address and/or phone number.
+- **Request Body:**
+```json
+{
+    "email": "mcfly@hillvalley.edu",
+    "phoneNumber": "123456"
+}
+```
+- **Response:** Returns the created/updated contact.
+```json
+{
+    "contact": {
+        "primaryContactId": 1,
+        "emails": ["lorraine@hillvalley.edu","mcfly@hillvalley.edu"],
+        "phoneNumbers": ["123456"],
+        "secondaryContactIds": [2]
+    }
+}
+```
