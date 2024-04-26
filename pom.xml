@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.bitespeed</groupId>
     <artifactId>IdentityReconciliation</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>BETA-V2</version>
     <name>IdentityReconciliation</name>
     <description>IdentityReconciliation</description>
     <properties>
